@@ -1,0 +1,104 @@
+M:\dev_env\my_llama-2_assistant_bot
+├── .env
+├── .gitignore
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── __pycache__
+├── admin
+│   ├── create_folder_structure.py
+│   └── download-model.py
+├── docs
+│   ├── issues.md
+│   ├── news.md
+│   ├── performance.md
+│   ├── pypi.md
+│   └── structure
+│       └── folder_structure.txt
+├── env_examples
+│   ├── .env.13b_example
+│   ├── .env.7b_8bit_example
+│   ├── .env.7b_ggmlv3_q4_0_example
+│   └── .env.7b_gptq_example
+├── models
+│   ├── llama-2-7b-chat.Q4_0.gguf
+│   └── llama-2-7b-chat.Q4_K_M.gguf
+├── poetry.lock
+├── pyproject.toml
+├── requirements.txt
+├── src
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-311.pyc
+│   ├── benchmark_app
+│   │   ├── __init__.py
+│   │   └── benchmark.py
+│   ├── chatbot_ui
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   └── __init__.cpython-311.pyc
+│   │   ├── chatbot_ui.py
+│   │   ├── chatbot_ui_old.py
+│   │   ├── chatbot_util.py
+│   │   └── gradio_interface.py
+│   ├── code_completion_bot
+│   │   ├── __init__.py
+│   │   └── code_completion.py
+│   ├── gradio_cached_examples
+│   │   ├── 19
+│   │   │   ├── Chatbot
+│   │   │   │   ├── tmp4y5jdlyz.json
+│   │   │   │   ├── tmpdlg830yc.json
+│   │   │   │   ├── tmpohrjrirq.json
+│   │   │   │   ├── tmpu5yqq0kv.json
+│   │   │   │   └── tmpvctxjcjr.json
+│   │   │   └── log.csv
+│   │   ├── 20
+│   │   │   ├── chatbot
+│   │   │   │   ├── tmp0z8993th.json
+│   │   │   │   ├── tmp197dhwl0.json
+│   │   │   │   ├── tmp81wsykvo.json
+│   │   │   │   ├── tmp8gxx01le.json
+│   │   │   │   └── tmpzw4y4f1z.json
+│   │   │   └── log.csv
+│   │   ├── 4
+│   │   │   ├── Chatbot
+│   │   │   │   ├── tmp4fw2am5x.json
+│   │   │   │   ├── tmphe7cwi73.json
+│   │   │   │   ├── tmpsmfmwaxs.json
+│   │   │   │   ├── tmpw84yosrs.json
+│   │   │   │   └── tmpxijmnw66.json
+│   │   │   └── log.csv
+│   │   └── 5
+│   │       ├── Chatbot
+│   │       │   ├── tmp_1t467f7.json
+│   │       │   ├── tmp_8cic4j7.json
+│   │       │   ├── tmprclozcs4.json
+│   │       │   ├── tmpy7kazuj8.json
+│   │       │   └── tmpztj0fx4m.json
+│   │       └── log.csv
+│   ├── llama2_wrapper
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── model.cpython-311.pyc
+│   │   │   └── types.cpython-311.pyc
+│   │   ├── download
+│   │   │   ├── __init__.py
+│   │   │   └── __main__.py
+│   │   ├── model.py
+│   │   ├── server
+│   │   │   ├── __init__.py
+│   │   │   ├── __main__.py
+│   │   │   └── app.py
+│   │   └── types.py
+│   ├── main.py
+│   └── models
+│       └── llama-2-7b-chat.Q4_0.gguf
+├── static
+│   └── screenshot.png
+└── tests
+    ├── __init__.py
+    └── test_get_prompt.py
+
+Script last modified: 2023-10-08 21:19:19
